@@ -20,7 +20,7 @@ const sayHiToGrandma = (myStr) => {
   const returnChoices = { lower: "I can't hear you!",
                           upper: "YES INDEED!",
                           mixed: "I love you, too.",
-                          blank: "";
+                          blank: "",
                         };
                         
                   

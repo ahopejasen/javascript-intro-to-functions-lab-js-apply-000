@@ -1,4 +1,4 @@
-use strict;
+"use strict";
 function shout(myStr) {
   return myStr.toUpperCase();
 }

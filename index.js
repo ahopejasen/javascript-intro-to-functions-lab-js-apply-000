@@ -10,3 +10,7 @@ const whisper = function(myStr) {
 const logShout = (myStr) => {
   console.log(myStr.toUpperCase());
 };
+
+const logWhisper = function (myStr) {
+  console.log(myStr.toLowerCase());
+};

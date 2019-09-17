@@ -34,9 +34,6 @@ const sayHiToGrandma = (myStr) => {
     } else { // not blank, not lower, not upper, must be mixed
       returnStr=returnChoices.mixed;
     }
- 
-    
   }
-  
   return returnStr;
-}
+};

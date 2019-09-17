@@ -1,7 +1,9 @@
+use strict;
 function shout(myStr) {
   return myStr.toUpperCase();
 }
 
-whisper = function(myStr) {
+const whisper = function(myStr) {
   return myStr.toLowerCase();
 }
+

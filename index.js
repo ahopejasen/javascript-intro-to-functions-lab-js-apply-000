@@ -24,10 +24,18 @@ const sayHiToGrandma = (myStr) => {
                         };
                         
                   
-  if 
-  (myStr === myStr.toLowerCase) {
-    returnStr=returnChoices.lower;  
-  } else if ( myStr === myStr.toUpperCase)
+  if (!myStr.trim()) { // blank
+    returnStr= returnChoices.blank;
+  } else { // not blank
+    if (myStr === myStr.toLowerCase) {
+      returnStr=returnChoices.lower;  
+    } else if ( myStr === myStr.toUpperCase) {
+      returnStr=returnChoices.upper;
+    } else { // not blank, not lower, not upper, must be mixed
+      returnStr=returnChoices.mixed;
+    }
+ 
+    
   }
   
   return returnStr;

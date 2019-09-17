@@ -15,7 +15,7 @@ const logWhisper = function (myStr) {
   console.log(myStr.toLowerCase());
 };
 
-const sayHiToGrandma = (myStr) => { 
+function sayHiToGrandma(myStr) { 
   let returnStr = "";
   const returnChoices = { lower: "I can't hear you!",
                           upper: "YES INDEED!",

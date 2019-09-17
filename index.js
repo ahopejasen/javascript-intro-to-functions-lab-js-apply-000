@@ -16,7 +16,19 @@ const logWhisper = function (myStr) {
 };
 
 const sayHiToGrandma = (myStr) => { 
-  let returnStr = 
-  if (myStr === myStr.toLowerCase) {
-    
+  let returnStr = "";
+  const returnChoices = { lower: "I can't hear you!",
+                          upper: "YES INDEED!",
+                          mixed: "I love you, too.",
+                          blank: "";
+                        };
+                        
+                  
+  if 
+  (myStr === myStr.toLowerCase) {
+    returnStr=returnChoices.lower;  
+  } else if ( myStr === myStr.toUpperCase)
   }
+  
+  return returnStr;
+}

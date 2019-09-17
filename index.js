@@ -14,3 +14,9 @@ const logShout = (myStr) => {
 const logWhisper = function (myStr) {
   console.log(myStr.toLowerCase());
 };
+
+const sayHiToGrandma = (myStr) => { 
+  let returnStr = 
+  if (myStr === myStr.toLowerCase) {
+    
+  }
